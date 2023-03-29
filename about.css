@@ -1,0 +1,152 @@
+
+  body{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.625) , rgba(233, 203, 203, 0.625) , rgb(0, 0, 0));
+
+  }
+  
+ 
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  header img {
+    height: 50px;
+  }
+  
+  header h1 {
+    font-size: 2rem;
+  }
+  
+  header nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  header nav li {
+    margin-left: 20px;
+  }
+  
+  header nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+
+  main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    font-size: 1.4em;
+  }
+  
+  main p {
+    line-height: 1.5;
+  }
+  
+  main form {
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  main label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  main input[type="text"],
+  main select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  main section#date-inp input[type="date"] {
+    width: 48%;
+  }
+  
+  main button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  main button[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
+
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  footer h4,
+  footer h5 {
+    margin: 0;
+  }
+  
+  footer img {
+    height: 30px;
+    margin-right: 10px;
+  }
+  form {
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  section#date-inp input[type="date"] {
+    width: 48%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #3e8e41;
+  }

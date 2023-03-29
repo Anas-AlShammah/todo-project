@@ -1,0 +1,138 @@
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  .main1 h2 {
+    animation-name: fadeIn;
+    animation-duration:10s;
+  }
+    
+p {
+    color: aqua;
+}
+h2 {
+    color: rgb(255, 255, 255);
+}
+.Body {
+    
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.625) , rgba(233, 203, 203, 0.625) , rgb(0, 0, 0));
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   display: flex; 
+    flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+  ;
+   height: 100vh;
+}
+.Header {
+    
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+   
+}
+#logo{
+    
+    position: absolute;
+    height: 130px;
+    top:2em;
+    left: 13em;
+
+    mix-blend-mode: color;
+    
+}
+
+.Nav {
+    
+   position: relative;
+    
+    width: 70%;
+}
+ul{
+    position: absolute;
+    gap: 7em;
+    top:60px;
+    right: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+
+    
+}
+a{
+    font-size: 2em;
+    border: 10px solid rgb(10, 10, 9) ;
+    background-color: rgb(6, 6, 6);
+     
+}
+
+.Main{
+    
+    
+    top:3em;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+
+}
+.main1{
+    position: absolute;
+    text-align: center;
+
+    top: 0;
+    left: 4em;
+    font-size: 5em;
+}
+.main2{
+    position: absolute;
+    top: 5em;
+    font-size: 2em;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  td, th {
+    border: 1px solid #ccc;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  .Footer{
+    background-color: rgb(86, 66, 66);
+    color: #f9f8f1;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    font-size: 1.4em;
+    height: 100px;
+  }
+  a{
+    color: #f9f9f9;
+    text-decoration: none;
+        
+  }
+
+ 
