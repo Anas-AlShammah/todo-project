@@ -134,5 +134,17 @@ table {
     text-decoration: none;
         
   }
+  .cop{
+    padding: 20px 20px 20px 20px;
+   
+   background-color: aqua;
+  
+
+  }
+  .uncop{
+    padding: 20px 20px 20px 20px;
+    
+    background-color: rgb(247, 10, 10);
+  }
 
  
