@@ -40,7 +40,7 @@ alert(`Welcome Ms ${name1} in TodoGenius`);
     }   
 }
 
-function questions  ()
+function questions ()
 {
     var arrayQuestions=["Do you enjoy reading books?","Have you ever been to a music festival?","Have you ever tried a food from a different culture that you didn't like?"]
 
@@ -72,8 +72,8 @@ console.log(`Answer:`,arrAns[i]);
 }
 
 function call () {
-let questions= questions();
-let answers= ans(questions);
-print(questions,answers);
+let question= questions();
+let answer= ans(question);
+print(question,answer);
 }
 call();
